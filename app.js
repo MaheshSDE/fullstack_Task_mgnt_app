@@ -5,7 +5,7 @@ app.use(express.json())
 const cors=require('cors')
 app.use(cors())
 
-const bcrypt=require('bcrypt');
+const bcrypt=require('bcryptjs');
 const jwt=require('jsonwebtoken');
 
 //importing models user and task models
